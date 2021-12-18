@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+:root {
+  --Amareloo: #febe01;
+  --Dourado: #694b0f;
+  --Pretoo: #111111;
+  --cinzaa: #b2b2b2;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: var(--Pretoo);
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: var(--cinzaa);
+}
+
+.fundo {
+  background-color: var(--Pretoo);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 800px;
+}
+
+.destaque {
+  color: var(--Amareloo);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--Amareloo);
+  color: var(--Dourado);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+:hover a {
+  background-color: var(--Dourado);
+  color: white;
+  transition-duration: 0.4s;
+}
